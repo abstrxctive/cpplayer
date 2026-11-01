@@ -66,7 +66,6 @@ int main() {
 
     int curIdx = choice - 1;
     while (true) {
-
         string currentFile = musicFiles[curIdx];
         cout << "Играет: " << fs::path(currentFile).filename().string();
 
