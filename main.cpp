@@ -65,7 +65,6 @@ int main() {
     cout << "Нажмите Enter чтобы переключить трек" << endl << endl;
 
     int curIdx = choice - 1;
-    string isPause;
     while (true) {
 
         string currentFile = musicFiles[curIdx];
